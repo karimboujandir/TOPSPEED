@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>TOP SPEED</title>
+    <link rel="stylesheet" href="top-speed.css">
+</head>
+
+<body>
+
+        <div class="cercle"></div>
+        <header>
+                <img src="./images/voiturelogoConverti.png" class="logo">
+        </header>
+        <div class="container">
+            <div class="texte">
+                <h2>TOP  SPEED<div class="titre" onclick="changeCouleurCercle(getComputedStyle(document.querySelector('.cercle')).backgroundColor)">Occasion & Run </div></h2>
+                <p>TOP SPEED est spécialisé dans l'achat, la vente et la préparation de véhicule d'occasion grâce à
+                    une équipe de professionnels passionnés. Nous offrons un service personnalisé pour vous
+                    aider à trouver la voiture qui répond à vos besoins et vos attentes. Nous sommes également experts
+                    en préparation de véhicules. Faire confiance à TOP SPEED, c'est
+                    l'assurance d'un suivi et d'un service de qualité pour vous accompagner à chaque étape de votre
+                    projet automobile.</p>
+                <a class="liens" href="mailto:topspeed.beziers@gmail.com" title="Contacter TOP SPEED" onclick="changeCouleurCercle(getComputedStyle(document.querySelector('.cercle')).backgroundColor)">Nous contacter</a>
+                 <a class="liens" href="tel:+33647955167" title="Appeler TOP SPEED" onclick="changeCouleurCercle(getComputedStyle(document.querySelector('.cercle')).backgroundColor)">06 47 95 51 67</a>
+            </div>
+            <div class="imgBox">
+                <img src="./images/voiture.rouge.pngcc.png" alt="rouge" class="rouge">
+            </div>
+        </div>
+        <ul class="catalogue">
+            <li><img src="./images/voiture.rouge.pngcc.png" alt="rouge" onclick="imgSlider('./images/voiture.rouge.pngcc.png');changeCouleurCercle('#cc0000')"></li>
+            <li><img src="./images/voiture.vert.pngcc.png" alt="vert" onclick="imgSlider('./images/voiture.vert.pngcc.png');changeCouleurCercle('#155d01')"></li>
+            <li><img src="./images/voitures.bleu.pngcc.png" alt="bleu" onclick="imgSlider('./images/voitures.bleu.pngcc.png');changeCouleurCercle('#2287d6')"></li>
+            <li><img src="./images/voiture.jaunes.pngcc.png" alt="jaune" onclick="imgSlider('./images/voiture.jaunes.pngcc.png');changeCouleurCercle('#FFCE00')"></li>
+        </ul>
+        <ul class="social">
+            <li><a href="https://www.facebook.com/" title="Facebook"><img src="./images/fb.png" alt="Logo Facebook"></a></li>
+            <li><a href="https://www.instagram.com/?hl=fr" title="Instagram"><img src="./images/insta.png" alt="Logo Instagram"></a></li>
+            <li><a href="https://www.youtube.com/" title="YouTube"><img src="./images/youtube.png" alt="Logo YouTube"></a></li>
+        </ul>
+
+    
+    
+    <script src="top-speed.js"></script>
+
+</body>
+
+</html>
